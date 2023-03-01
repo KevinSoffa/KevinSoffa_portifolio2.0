@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desenvolvedor Front-end com experiências em React, React-native, Node e JavaScript puro">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kevin Soffa | Desenvolvedor Back-End</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container_header">
+           <a href="index.html" class="link" aria-label="link para página atual"><img src="img/logo.png" alt="Logo principal" class="logo_header" width="7rem" height="auto"></a>
+           <nav class="menu_header">
+            <button class="button_header" aria-expanded="false" aria-controls="menu" aria-haspopup="true" aria-label="Abrir menu"><span class="menu_icone-header"></span></button>
+            <ul class="list_header" role="menu">
+                <li class="iten_header"><a href="#principal" class="link_iten">Home</a></li>
+                <li class="iten_header"><a href="#sobre" class="link_iten">Sobre</a></li>
+                <li class="iten_header"><a href="#qualificacoes" class="link_iten">Qualificações</a></li>
+                <li class="iten_header"><a href="#servicos" class="link_iten">Serviços</a></li>
+                <li class="iten_header"><a href="#conhecimento" class="link_iten">Conhecimento</a></li>
+                <li class="iten_header"><a href="#projeto" class="link_iten">Projetos</a></li>
+                <li class="iten_header"><a href="#contato" class="link_iten">Contato</a></li>
+            </ul>
+           </nav>
+        </div>
+    </header>
+    <main>
+        <section class="section_main" id="principal">
+            <div class="container_main">
+                <p class="destaque_main">Tecnologia como um ativo</p>
+                <h2 class="titulo_main">Olá, eu sou <span class="destaque">Kevin </span></h2>
+                <p class="cargo_main">Back-end developer</p>
+                <p class="descricao_main">Fico feliz em vê-lo (a) por aqui. Espero que aproveite o conteúdo e que eu possa te ajudar de alguma forma.</p>
+                <a href="#sobre"><button class="button">Conhecer mais</button></a>
+            </div>
+            <nav class="navigation_main">
+                <ul class="list_main">
+                    <li class="iten_main"><a href="https://www.instagram.com/kevinsoffa/" class="link" target="_blank" aria-label="Visitar Instagram de Vinícius"><i class="fa-brands fa-instagram icons"></i></a></li>
+                    <li class="iten_main"><a href="https://github.com/KevinSoffa?tab=repositories" class="link" target="_blank" aria-label="Visitar Github de Vinícius"><i class="fa-brands fa-github icons"></i></a></li>
+                    <li class="iten_main"><a href="https://www.linkedin.com/in/kevin-soffa-da-silva-souza-2607b5212/" class="link" target="_blank" aria-label="Visitar Linkedin de Vinícius"><i class="fa-brands fa-linkedin icons"></i></a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="section_sobre" id="sobre">
+            <img src="img/kevin.png" class="foto_perfil" alt="Foto de Vinícius Tôrres">
+            <div class="container_sobre">
+                <p class="texto_destaque"><img src="img/arrow-rigth.png" class="arrow"> DESENVOLVEDOR BACK-END</p>
+                <h3 class="titulo_sobre">Desenvolvedor Python, graduando em Análise e Desenvolvimento de 
+                    Sistemas, técnico em desenvolvimento em programação em Python com frameworks; Django, Django Rest Framework, Flask, FastAPI, 
+                    Pandas, Selenium. Conhecimento em JavaScript, 
+                    React, HTML5 e CSS3. Utilização de GitHub e GitLab em versionamento de códigos. Conhecimento em serviços de Cloud com AWS..
+                </h3>
+                <p class="descricao_sobre">Meu nome é Kevin, tenho 26 anos e atuo na área de desenvolvimento profissionalmente há mais de 1 ano, e 2 anos de 
+                    estudo.
+                    Possuo experiência em duas empresas como Desenvolvedor Back-End Python JR. Atualmente estou procurando recolocação no mercado de Trabalho.
+                </p>
+                <p class="descricao_sobre">Logo abaixo tem o meu currículo com informçôes mais detalhadas sobre mim. Se preferir, podemos marcar uma call atráves do meu e-mail que está disponibilizado.</p>
+                <div class="container_button">
+                    <a href="document/CV-Kevin Soffa.pdf" download="CV-Kevin Soffa" aria-label="Baixar curriculo de Vinícius" class="link">
+                        <button class="button_cv">Baixar CV <i class="fa-solid fa-download"></i></button>
+                    </a>
+                    <button class="button_email botaoCopiar" value="kevinsoffa@gmail.com" type="button" aria-label="Copiar email de Kevin">Copiar e-mail</button>
+                </div>
+            </div>
+        </section>
+        <section class="section_destaque">
+            <div class="bloco_destaque bloco-left">
+                <p class="numero"><span class="destaque_numero">+</span> 02</p>
+                <p class="destaque_descricao">Ano de experiência como desenvolvedor</p>
+            </div>
+            <div class="bloco_destaque bloco-left">
+                <p class="numero"><span class="destaque_numero">+</span> 38</p>
+                <p class="destaque_descricao">Projetos pessoais e educativos concluídos</p>
+            </div>
+            <div class="bloco_destaque bloco-rigth">
+                <p class="numero"><span class="destaque_numero">+</span> 09</p>
+                <p class="destaque_descricao">Cursos Back-end concluídos</p>
+            </div>
+        </section>
+        <section class="section_qualificacoes" id="qualificacoes">
+            <header class="cabecalho">
+                <h2 class="titulo">Minhas qualificações e experiências</h2>
+            </header>
+            <div class="bloco_button">
+                <button class="button button_educacao educacao" data-id="educacao" aria-label="Qualificações"><i class="fa-solid fa-award"></i> Qualificações</button>
+                <button class="button button_work" data-id="work" aria-label="Trabalhos"><i class="fa-solid fa-briefcase"></i> Trabalhos</button>
+            </div>
+            <div class="container_qualificacoes">
+                <ul class="lista" id="educacao">
+                    <li class="li rigth qualificacao_rigth">
+                        <div class="header_qualificacoes">
+                            <i class="fa-solid fa-graduation-cap icon"></i>
+                        </div>
+                        <p class="cargo">Curso em Vídeo | Mundo de Python</p>
+                        <p class="descricao">Iniciei meus estudos como desenvolvedor Back-end no Curso em Vídeo. 
+                            No qual o professor é o renomado e famoso Gustavo Guanabara | Concluí os 3 módulos do cursp.
+                        </p>
+                        <p class="conclusao"><i class="fa-regular fa-calendar-days"></i> 2021</p>
+                        <a href="document/Certificado Alura.pdf" class="link" download="Certificado Alura" aria-label="Certificado Alura">
+                            <button class="button_certificado true" aria-label="Visualizar certificado">Visualizar certificado</button>
+                        </a>
+                    </li>
+                    <li class="li rigth qualificacao_rigth">
+                        <div class="header_qualificacoes">
+                            <i class="fa-solid fa-graduation-cap icon"></i>
+                        </div>
+                        <p class="cargo">Python Impressionador</p>
+                        <p class="descricao">Curso completo de Python mais frameworks com Django, Pandas e Flask da Hashtag Treinamentos</p>
+                        <p class="conclusao"><i class="fa-regular fa-calendar-days"></i>2022</p>
+                        <button class="button_certificado button-progresso" disabled>Baixar Certificado</button>
+                    </li>
+                    <li class="li left qualificacao_left">
+                        <div class="header_qualificacoes">
+                            <i class="fa-solid fa-briefcase icon"></i>
+                        </div>
+                        <p class="cargo">ECWSA - Desenvolvedor Python JR</p>
+                        <p class="descricao">Desenvolvimento WEB Back-End - Microsserviços (Django,
+                            FastAPI, RabbitMQ) Criação de APIs (FastAPI e Django Rest
+                            Framework) Integração e query com banco de dados SQL e
+                            NoSQL com projetos Python                            
+                        </p>
+                        <p class="conclusao"><giti class="fa-regular fa-calendar-days"></giti>12/2021 à 11/2022</p>
+                    </li>
+                    <li class="li rigth qualificacao_rigth">
+                        <div class="header_qualificacoes">
+                            <i class="fa-solid fa-graduation-cap icon"></i>
+                        </div>
+                        <p class="cargo">Crie APIs REST com Python e Django REST Framework: Essencial</p>
+                        <p class="descricao">Curso totalmente focado em uma das maiores ferramentas Python para o Desenvolvimento de APIs REST.
+                            O Curso busca aprofundar os conhecimentos do básico ao avançado.
+                        </p>
+                        <p class="conclusao"><giti class="fa-regular fa-calendar-days"></giti> 2021 Novembro</p>
+                        <a href="document/Certificado Hora de Codar.pdf" class="link" download="Certificado Hora de Codar" aria-label="Certificado Hora de Codar">
+                            <button class="button_certificado true" aria-label="Visualizar certificado">Visualizar certificado</button>
+                        </a>
+                    </li>
+                    <li class="li rigth qualificacao_rigth">
+                        <div class="header_qualificacoes">
+                            <i class="fa-solid fa-graduation-cap icon"></i>
+                        </div>
+                        <p class="cargo">Lógica de Programação com Python mais Banco de Dados MySQL</p>
+                        <p class="descricao">Curso completo de Python com Projeto no final utilizando programação orientada a objeto e Banco de Dados MySQL
+                        </p>
+                        <p class="conclusao"><giti class="fa-regular fa-calendar-days"></giti> 2021 Setembro</p>
+                        <a href="document/Certificado Hora de Codar.pdf" class="link" download="Certificado Hora de Codar" aria-label="Certificado Hora de Codar">
+                            <button class="button_certificado true" aria-label="Visualizar certificado">Visualizar certificado</button>
+                        </a>
+                    </li>
+                    <li class="li rigth qualificacao_rigth">
+                        <div class="header_qualificacoes">
+                            <i class="fa-solid fa-graduation-cap icon"></i>
+                        </div>
+                        <p class="cargo">FastAPI - APIs Modernas e Assíncronas com Python | Geek University</p>
+                        <p class="descricao">Curso completo de FastAPI. Framework/Python em ascensão para criação muito rápiada de APIs REST  </p>
+                        <p class="conclusao"><giti class="fa-regular fa-calendar-days"></giti> 2023 Janeiro</p>
+                        <a href="document/Certificado Hora de Codar.pdf" class="link" download="Certificado Hora de Codar" aria-label="Certificado Hora de Codar">
+                            <button class="button_certificado true" aria-label="Visualizar certificado">Visualizar certificado</button>
+                        </a>
+                    </li>
+                    <li class="li rigth qualificacao_rigth">
+                        <div class="header_qualificacoes">
+                            <i class="fa-solid fa-graduation-cap icon"></i>
+                        </div>
+                        <p class="cargo">Programação Web com Python e Django Rest Framework | Geek University</p>
+                        <p class="descricao">Curso completo de Django, com projetos reais. Orientada a Objeto e utilizando Banco de Dados PostgreSQL </p>
+                        <p class="conclusao"><giti class="fa-regular fa-calendar-days"></giti> 2023 Fevereiro</p>
+                        <a href="document/Certificado Hora de Codar.pdf" class="link" download="Certificado Hora de Codar" aria-label="Certificado Hora de Codar">
+                            <button class="button_certificado true" aria-label="Visualizar certificado">Visualizar certificado</button>
+                        </a>
+                    </li>
+                    <li class="li rigth qualificacao_rigth">
+                        <div class="header_qualificacoes">
+                            <i class="fa-solid fa-graduation-cap icon"></i>
+                        </div>
+                        <p class="cargo">Aprenda JavaScript + Projetos Reais - Andre Lacono</p>
+                        <p class="descricao">Curso completo de JavaScript com mine projetos utilizando JavaScript Puro</p>
+                        <p class="conclusao"><giti class="fa-regular fa-calendar-days"></giti> 2022 Dezembro</p>
+                        <a href="document/Certificado Hora de Codar.pdf" class="link" download="Certificado Hora de Codar" aria-label="Certificado Hora de Codar">
+                            <button class="button_certificado true" aria-label="Visualizar certificado">Visualizar certificado</button>
+                        </a>
+                    </li>
+                    <li class="li rigth qualificacao_rigth">
+                        <div class="header_qualificacoes">
+                            <i class="fa-solid fa-graduation-cap icon"></i>
+                        </div>
+                        <p class="cargo">Banco de Dados SQL e NoSQL do básico ao avançado | Geek University</p>
+                        <p class="descricao">Curso completo com os principais Banco de Dados usando no mercado Trabalho. Tanto estruturação como Projetos</p>
+                        <p class="conclusao"><giti class="fa-regular fa-calendar-days"></giti> 2023 Fevereiro</p>
+                        <a href="document/Certificado Hora de Codar.pdf" class="link" download="Certificado Hora de Codar" aria-label="Certificado Hora de Codar">
+                            <button class="button_certificado button-progresso" disabled aria-label="Visualizar certificado">Visualizar certificado</button>
+                        </a>
+                    </li>
+                    <li class="li left qualificacao_left">
+                        <div class="header_qualificacoes">
+                            <i class="fa-solid fa-briefcase icon"></i>
+                        </div>
+                        <p class="cargo">Bora Transportes - Desenvolvedor Python JR</p>
+                        <p class="descricao">Desenvolvimento WEB Back-End e Front-End (Python,
+                            Django, HTML, CSS, MySQL e GitHub                           
+                        </p>
+                        <p class="conclusao"><giti class="fa-regular fa-calendar-days"></giti>02/2023 à 03/2023</p>
+                    </li>
+                    <li class="li rigth qualificacao_rigth">
+                        <div class="header_qualificacoes">
+                            <i class="fa-solid fa-graduation-cap icon"></i>
+                        </div>
+                        <p class="cargo">Amazon Web Services (AWS) | Geek University</p>
+                        <p class="descricao">Curso com foco total na plataforma da Amazon</p>
+                        <p class="conclusao"><giti class="fa-regular fa-calendar-days"></giti>Cursando</p>
+                        <a href="document/Certificado Hora de Codar.pdf" class="link" download="Certificado Hora de Codar" aria-label="Certificado Hora de Codar">
+                            <button class="button_certificado button-progresso" disabled aria-label="Visualizar certificado" disabled>Em Progresso</button>
+                        </a>
+                    </li>
+                    <li class="li rigth qualificacao_rigth">
+                        <div class="header_qualificacoes">
+                            <i class="fa-solid fa-graduation-cap icon"></i>
+                        </div>
+                        <p class="cargo">React do Zero a Maestria (c/ hooks, router, API, Projetos)</p>
+                        <p class="descricao">Curso compelto de React. O objetivo é se aprofundar ainda mais em um framework do JavaScript e melhor ainda mais meu
+                            Desenvolvimento Front-end.
+                        </p>
+                        <p class="conclusao"><giti class="fa-regular fa-calendar-days"></giti>Em Progresso</p>
+                        <a href="document/Certificado Hora de Codar.pdf" class="link" download="Certificado Hora de Codar" aria-label="Certificado Hora de Codar">
+                            <button class="button_certificado button-progresso" disabled aria-label="Visualizar certificado" disabled> Em Progresso</button>
+                        </a>
+                    </li>
+                    <li class="li rigth qualificacao_rigth">
+                        <div class="header_qualificacoes">
+                            <i class="fa-solid fa-graduation-cap icon"></i>
+                        </div>
+                        <p class="cargo">Análise e Desenvolvimento de Sistemas | Estácio</p>
+                        <p class="descricao"> Cursando Graduação em Análise e Desenvolvimento de Sistemas visando sempre o conhecimento
+                            e a busca por novas oportunidades maiores.
+                        </p>
+                        <p class="conclusao"><giti class="fa-regular fa-calendar-days"></giti>Em Progresso</p>
+                        <a href="document/Certificado Hora de Codar.pdf" class="link" download="Certificado Hora de Codar" aria-label="Certificado Hora de Codar">
+                            <button class="button_certificado button-progresso" disabled aria-label="Visualizar certificado" disabled> Em Progresso</button>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="lista lista_work" id="work">
+                    <li class="li item-work">
+                        <div class="header_qualificacoes">
+                            <i class="fa-solid fa-briefcase icon"></i>
+                        </div>
+                        <p class="cargo">ECWSA - Desenvolvedor Python júnior</p>
+                        <p class="descricao">Desenvolvimento WEB Back-End - Microsserviços (Django,
+                            FastAPI, RabbitMQ) Criação de APIs (FastAPI e Django Rest
+                            Framework) Integração e query com banco de dados SQL e
+                            NoSQL com projetos Python
+                        </p>
+                    </li>
+                </ul>
+                <ul class="lista lista_work" id="work">
+                    <li class="li item-work">
+                        <div class="header_qualificacoes">
+                            <i class="fa-solid fa-briefcase icon"></i>
+                        </div>
+                        <p class="cargo">Bora Transportes - Desenvolvedor Python júnior</p>
+                        <p class="descricao">Desenvolvimento WEB Back-End e Front-End (Python,
+                            Django, HTML, CSS, MySQL e GitHub
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section_servico" id="servicos">
+            <header class="cabecalho_servico">
+                <h2 class="titulo">Conheça quais são os meus <span class="destaque">serviços</span></h2>
+                <p class="descricao">Metodologias que eu utilizo nos meus trabalhos.</p>
+            </header>
+            <div class="container_servico">
+                <div class="bloco_servico">
+                    <h3 class="titulo">Desenvolvimento Web | Django</h3>
+                    <p class="descricao">Um desenvolvimento focado na criação de sites, páginas únicas, e-commerce e outras aplicações. Promovendo uma boa experiência e uma boa otimização do site.</p>
+                </div>
+                <div class="bloco_servico">
+                    <h3 class="titulo">Criação de APIs | FastAPI e DRF</h3>
+                    <p class="descricao">Consumo e criação de APIs REST para desenvolvimento interno ou WEB de aplicações. Utilizando Banco de Dados SQL e NoSQL.</p>
+                </div>
+                <div class="bloco_servico">
+                    <h3 class="titulo">Análise de Dados | Pandas</h3>
+                    <p class="descricao">Utilizando uma das ferramentas mais poderosas do Python e suas bibliotecas é possível a criação de análises profundas e visuais de grande quantidade de dados.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section_tech" id="conhecimento">
+            <h2 class="titulo_tech">Conhecimento</h2>
+            <div class="container_tech">
+                <div class="bloco_tech">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" class="conhecimento" alt="python"> 
+                    <p class="nome_tech">Python</p>
+                </div>
+                <div class="bloco_tech">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" class="conhecimento" alt="Django"> 
+                    <p class="nome_tech">Django</p>
+                </div>
+                <div class="bloco_tech">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" class="conhecimento" alt="Flask"> 
+                    <p class="nome_tech">Flask</p>
+                </div>
+                <div class="bloco_tech">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" class="conhecimento" alt="FastAPI"> 
+                    <p class="nome_tech">FastAPI</p>
+                </div>
+                <div class="bloco_tech">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" class="conhecimento" alt="mongodb"> 
+                    <p class="nome_tech">Mongo DB</p>
+                </div>
+                <div class="bloco_tech">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" class="conhecimento" alt="PostgreSQL"> 
+                    <p class="nome_tech">PostgreSQL</p>
+                </div>
+                <div class="bloco_tech">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" class="conhecimento" alt="MySQL"> 
+                    <p class="nome_tech">MySQL</p>
+                </div>
+                <div class="bloco_tech">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" class="conhecimento" alt="Pandas"> 
+                    <p class="nome_tech">Pandas</p>
+                </div>
+                <div class="bloco_tech">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" class="conhecimento" alt="AWS"> 
+                    <p class="nome_tech">AWS</p>
+                </div>
+                <div class="bloco_tech">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" class="conhecimento" alt="Ubuntu"> 
+                    <p class="nome_tech">Ubuntu</p>
+                </div>
+                <div class="bloco_tech">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" class="conhecimento" alt="Windows"> 
+                    <p class="nome_tech">Windows</p>
+                </div>
+                <div class="bloco_tech">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="conhecimento" alt="JavaScript"> 
+                    <p class="nome_tech">JavaScript</p>
+                </div>
+                <div class="bloco_tech">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="conhecimento" alt="React"> 
+                    <p class="nome_tech">React</p>
+                </div>
+                <div class="bloco_tech">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="conhecimento" alt="HTML"> 
+                    <p class="nome_tech">HTML 5</p>
+                </div>
+                <div class="bloco_tech">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="conhecimento" alt="CSS3"> 
+                    <p class="nome_tech">CSS 3</p>
+                </div>
+                <div class="bloco_tech">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" class="conhecimento" alt="BootStrap"> 
+                    <p class="nome_tech">BootStrap</p>
+                </div>
+                <div class="bloco_tech">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" class="conhecimento" alt="GitHub"> 
+                    <p class="nome_tech">GitHub</p>
+                </div>
+                <div class="bloco_tech">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" class="conhecimento" alt="GitLab"> 
+                    <p class="nome_tech">GitLab</p>
+                </div>
+            </div>
+        </section>
+        <section class="section_projetos" id="projeto">
+            <h2 class="titulo_projeto">Meus principais projetos</h2>
+            <div class="container_projetos">
+                <div class="card_projeto">
+                    <img src="img/ksflix.png" alt="" class="imagem_fundo">
+                    <div class="card_descricao">
+                        <h3 class="titulo_card">KS|Flix - Python\Django</h3>
+                        <nav class="card_nav">
+                            <a href="https://github.com/KevinSoffa/KS_Flix" class="link" target="_blank" aria-label="Abrir Github">
+                                <button class="button github">Github</button></a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="card_projeto">
+                    <img src="img/fusion.png" alt="" class="imagem_fundo">
+                    <div class="card_descricao">
+                        <h3 class="titulo_card">Fusion - Python\Django</h3>
+                        <nav class="card_nav">
+                            <a href="https://github.com/KevinSoffa/Fusion" class="link" target="_blank" aria-label="Abrir Github">
+                                <button class="button github">Github</button></a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="card_projeto">
+                    <img src="img/api_jwt.png" alt="" class="imagem_fundo">
+                    <div class="card_descricao">
+                        <h3 class="titulo_card">API Artigos - Python\FastAPI </h3>
+                        <nav class="card_nav">
+                            <a href="https://github.com/KevinSoffa/CRUD_FastAPI_JWT-Artigos" class="link" target="_blank" aria-label="Abrir Github">
+                                <button class="button github">Github</button></a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="card_projeto">
+                    <img src="img/python_financas.png" alt="" class="imagem_fundo">
+                    <div class="card_descricao">
+                        <h3 class="titulo_card">Finanças - Python\Pandas </h3>
+                        <nav class="card_nav">
+                            <a href="https://github.com/KevinSoffa/Python_Financas" class="link" target="_blank" aria-label="Abrir Github">
+                                <button class="button github">Github</button></a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="container_button">
+                <a href="https://github.com/KevinSoffa?tab=repositories" class="link" target="_blank" aria-label="Abrir Github">
+                    <button class="botao_github">Abrir meu Github</button>
+                </a>
+            </div>
+        </section>
+        <section class="section_contato" id="contato">
+            <header class="cabecalho_contato">
+                <h2 class="titulo titulo_contato">Networking</h2>
+                <p class="descricao descricao_contato">Você pode me enviar um email ou conversar diretamente através das minhas redes.</p>
+             </header>
+            <div class="lista_rede">
+                <div class="item_rede">
+                    <a href="https://www.linkedin.com/in/kevin-soffa-da-silva-souza-2607b5212/" class="link" target="_blank" aria-label="Abrir Linkedin de Kevin">
+                        <i class="fa-brands fa-linkedin icon"></i> Linkedin
+                        <i class="fa-solid fa-check check"></i>
+                    </a>
+                </div>
+                <div class="item_rede">
+                    <a href="https://github.com/KevinSoffa?tab=repositories" class="link" target="_blank"  aria-label="Abrir Github de Kevin">
+                        <i class="fa-brands fa-github icon"></i> Github
+                        <i class="fa-solid fa-check check"></i>
+                    </a>
+                </div>
+                <div class="item_rede">
+                    <a href="https://www.instagram.com/kevinsoffa//" class="link" target="_blank"  aria-label="Abrir Instagram de Kevin">
+                        <i class="fa-brands fa-instagram icon"></i> Instagram
+                        <i class="fa-solid fa-check check"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <a href="#principal" class="link"  aria-label="Voltar para o topo da página">
+            <button class="botao_topo"><i class="fa-solid fa-angles-up icone"></i>Voltar ao topo</button>
+        </a>
+    </main>
+    <footer class="footer">
+        <h2 class="titulo">Kevin Soffa © 2023</h2>
+    </footer>
+    <script src="https://kit.fontawesome.com/b4aee6e34b.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
