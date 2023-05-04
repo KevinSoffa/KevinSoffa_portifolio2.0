@@ -483,9 +483,9 @@
 
 .section_servico .container_servico .bloco_servico {
     width: 100%;
-    min-width: 30rem;
-    max-width: 37rem;
-    height: 25rem;
+    min-width: 29rem;
+    max-width: 23rem;
+    height: 30rem;
     padding: 2rem;
     border: .2rem solid var(--black-100);
     border-radius: .5rem;
