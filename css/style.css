@@ -28,7 +28,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 3rem;
+    gap: 2rem;
     background-color: var(--black-100);
     position: absolute;
     top: 7.1rem;
@@ -191,9 +191,79 @@
     }
   }
 
-.section_sobre .container_sobre {
+
+/* Início Section Python K*/
+
+.section_python_k {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+}
+
+.section_python_k .foto_python_k{
+    min-width: 35rem;
+    height: 35rem;
+    object-fit: contain;
+    border-radius: 100%;
+    box-shadow: .1rem .1rem 1rem .1rem var(--ciano-default-color);;
+}
+
+
+.section_python_k .container_python_k {
     max-width: 60rem;
 }
+
+.section_python_k .container_python_k .texto_destaque {
+    color: var(--white);
+    font-family: var(--font-inter);
+    font-size: 5rem;
+    letter-spacing: .3rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.section_python_k .container_python_k .texto_destaque .arrow {
+    width: 5rem;
+}
+
+.section_python_k .container_python_k .titulo_python_k {
+    font-family: var(--font-barlow);
+    font-size: 3.2rem;
+    font-weight: 400;
+    color: var(--white);
+    margin: 2rem 0;
+}
+
+.section_python_k .container_python_k .container_button {
+    width: 60%;
+    display: flex;
+    gap: 1rem;
+}
+
+.section_python_k .container_python_k .container_button .link {
+    width: 100%;
+}
+
+.section_python_k .container_python_k .container_button .python_k_YT {
+    width: 100%;
+    height: 4.5rem;
+    border-radius: .5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.section_python_k .container_python_k .container_button .python_k_YT {
+    background-color: var(--ciano-default-color);
+}
+
+.section_python_k .container_python_k .container_button .python_k_YT:hover {
+    background-color: var(--ciano-hover);
+}
+
+/* FIM Section Python K*/
 
 .section_sobre .container_sobre .texto_destaque {
     color: var(--white);
@@ -205,16 +275,16 @@
     gap: .5rem;
 }
 
-.section_sobre .container_sobre .texto_destaque .arrow {
-    width: 2rem;
-}
-
 .section_sobre .container_sobre .titulo_sobre {
     font-family: var(--font-barlow);
     font-size: 3.2rem;
     font-weight: 400;
     color: var(--white);
     margin: 2rem 0;
+}
+
+.section_sobre .container_sobre .texto_destaque .arrow {
+    width: 2rem;
 }
 
 .section_sobre .container_sobre .descricao_sobre {
