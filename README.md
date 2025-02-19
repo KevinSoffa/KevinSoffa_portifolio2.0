@@ -16,14 +16,14 @@ Bem-vindo ao repositório do meu portfólio! Este README serve como documentaç�
 
 ## 🏆 Qualificações e Experiência Profissional  
 
-### 📚 Cursos  
+### 📚 Cursos em andamento
 
-- **📌 Banco de Dados SQL e NoSQL do básico ao avançado | Geek University**  
-  - 📖 Curso completo abordando bancos de dados SQL e NoSQL, incluindo estruturação e projetos.  
-  - ⏳ Status: Em andamento (Iniciado em fevereiro de 2023)  
+- **☕ Java COMPLETO Programação Orientada a Objetos + Projetos | Udemy**  
+  - 📖 Curso completo de JAVA com projetos.  
+  - ⏳ Status: Em andamento  
 
-- **☁️ Amazon Web Services (AWS) | Geek University**  
-  - 🎯 Curso com foco na plataforma Amazon Web Services.  
+- **🧪 Pytest na Prática | Udemy**  
+  - 🎯 Curso com foco na automatização de testes com Python.  
   - ⏳ Status: Em progresso  
 
 ### 💼 Experiência Profissional  
@@ -41,7 +41,11 @@ Bem-vindo ao repositório do meu portfólio! Este README serve como documentaç�
   - 🤖 Automação de Processos Robóticos (RPA) utilizando Selenium.  
 
 - **🏢 Grupo Casas Bahia - Desenvolvedor Python | Abril de 2024 até o momento**  
-  - 🏗️ Desenvolvimento web backend e microsserviços.  
+  - 🏗️ Desenvolvimento back-end para integração.
+  - 🗄️ Criação de Query's dinâmicas em SQL.
+  - 🦘 Criação de Consumer e Producer em filas Kafkas com Python.
+  - 🔷 Criação de Diagramas automáticos com Python dentro da Ferramenta EA Sparx
+  - 🔗 Consumo e crição de APIs REST 
 
 ## 💼 Serviços  
 
@@ -50,6 +54,16 @@ Bem-vindo ao repositório do meu portfólio! Este README serve como documentaç�
 
 ### 🔗 Criação de APIs | FastAPI e DRF  
   - 🔄 Consumo e criação de APIs REST para desenvolvimento de aplicações internas ou web utilizando Django Rest Framework e FastAPI.  
+
+### ⚙️ Integrações para Arquitetura  
+  - 🔗 Desenvolvimento de integrações entre sistemas para melhorar a comunicação entre serviços e otimizar processos.  
+
+### 🏗️ Criação de Componentes  
+  - 🛠️ Desenvolvimento de componentes reutilizáveis para arquiteturas escaláveis e manutenção simplificada.  
+
+### 📊 Criação de Diagramas Automáticos  
+  - 🖼️ Geração automatizada de diagramas para visualização de fluxos, arquiteturas e processos em tempo real.  
+
 
 ## 🛠️ Habilidades  
 
