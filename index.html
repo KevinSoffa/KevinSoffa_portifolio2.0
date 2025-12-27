@@ -51,14 +51,17 @@
             <div class="container_sobre">
                 <p class="texto_destaque"><img src="img/arrow-rigth.png" class="arrow"> DESENVOLVEDOR BACK-END</p>
                 <h3 class="titulo_sobre">
-                    Desenvolvedor Python Pleno, formado em Análise e Desenvolvimento de Sistemas pela Estácio, com especialização técnica em programação avançada em Python. Tenho experiência sólida com frameworks como Django, Django Rest Framework, Flask, FastAPI, além de ferramentas como Pandas, PySpark, Selenium e PyAutoGUI.
+                    Desenvolvedor Python Pleno, formado em Análise e Desenvolvimento de Sistemas pela Estácio, com especialização técnica em programação avançada em Python. 
+                    Tenho experiência sólida com frameworks como Django, Django Rest Framework, Flask, FastAPI, além de ferramentas como Pandas, PySpark, Selenium e PyAutoGUI.
                     <br><br>
                     Também atuo com desenvolvimento Web utilizando JavaScript, Node.js, React, HTML5 e CSS3. Possuo domínio em versionamento de código com GitHub, GitLab e Azure DevOps, incluindo a gestão de branches e colaboração em equipe.
                     <br><br>
-                    Tenho vivência prática com bancos de dados relacionais e não relacionais, como MySQL, PostgreSQL, Oracle e MongoDB. Destaco minha experiência no desenvolvimento de automações com Selenium e PyAutoGUI, otimizando fluxos e processos.
+                    Tenho vivência prática com bancos de dados relacionais e não relacionais, como MySQL, PostgreSQL, Oracle, MongoDB e DynamoDB. Destaco minha experiência no desenvolvimento de automações com Selenium e PyAutoGUI, otimizando fluxos e processos.
                     <br><br>
                      Além disso, possuo experiência em Big Data com a plataforma Azure, incluindo o uso de Databricks, DataLake, WorkFlow, Data Factory, PySpark, Pandas e Power BI. Com experiência na criação de jobs e flows automatizados em notebooks para orquestração de dados. Estou em constante evolução profissional, buscando contribuir de forma eficaz em projetos desafiadores e inovadores.
-</h3>
+                    <br><br>
+                    Possuo experiência prática em AWS, trabalhando com serviços como DynamoDB, Lambda, S3 e EC2, utilizando a biblioteca Boto3 para criação, consulta, atualização e exclusão de recursos, além da automação de processos e integração com aplicações Python.
+                </h3>
                 </h3>
                 <p class="descricao_sobre">Meu nome é Kevin, tenho 29 anos e atuo na área de desenvolvimento profissionalmente com 4 anos de experiência.
                     Possuo experiência em 4 empresas como Desenvolvedor Back-End Python. Atualmente sou Software Enginneer ll no Grupo Casas Bahia.
@@ -594,11 +597,11 @@ Essa trajetória me permitiu adquirir uma visão ampla dos fluxos de dados corpo
                     </div>
                 </div>
                 <div class="card_projeto">
-                    <img src="img/api_jwt.png" alt="" class="imagem_fundo">
+                    <img src="img/cars_api_aws.png" alt="" class="imagem_fundo">
                     <div class="card_descricao">
-                        <h3 class="titulo_card">API Artigos - Python\FastAPI </h3>
+                        <h3 class="titulo_card">Cars API - Python\FastAPI\AWS\DynamoDB </h3>
                         <nav class="card_nav">
-                            <a href="https://github.com/KevinSoffa/CRUD_FastAPI_JWT-Artigos" class="link" target="_blank" aria-label="Abrir Github">
+                            <a href="https://github.com/KevinSoffa/car_api_aws" class="link" target="_blank" aria-label="Abrir Github">
                                 <button class="button github">Github</button></a>
                         </nav>
                     </div>
@@ -677,8 +680,12 @@ Essa trajetória me permitiu adquirir uma visão ampla dos fluxos de dados corpo
         </a>
     </main>
     <footer class="footer">
-        <h2 class="titulo">Kevin Soffa © 2025</h2>
+        <h2 class="titulo">Kevin Soffa © <span id="year"></span></h2>
     </footer>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
     <script src="https://kit.fontawesome.com/b4aee6e34b.js" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
 </body>
